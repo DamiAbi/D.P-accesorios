@@ -1,0 +1,162 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,200;1,200&family=Noto+Sans+Ethiopic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@500&family=Montserrat:ital,wght@0,200;1,200&family=Noto+Sans+Ethiopic&display=swap');
+div#root{
+   max-width: 100% !important;
+   padding: 0rem !important;
+}
+.btn.btn2{
+
+   background-color: transparent;
+   color: #fff;
+   border: solid 2px #fff;
+   outline: none;
+   transition: background-color .1s linear;
+   padding: 21px 34px;
+      margin-top: 30px;
+  
+   border-radius: 50px;
+   height: 100px;
+   width: 400px;
+   font-size: 10px;
+  
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+   
+    
+}
+.btn2:hover{
+   box-shadow: 4px 5px 32px 19px rgba(194,194,194,0.95);
+   -webkit-box-shadow: 4px 5px 32px 19px rgba(194,194,194,0.95);
+   -moz-box-shadow: 4px 5px 32px 19px rgba(194,194,194,0.95);
+} 
+
+
+.btn.btn3{
+
+   background-color:#fff;
+   color: rgb(0, 0, 0);
+   border: solid 2px #fff;
+   outline: none;
+   transition: background-color .1s linear;
+   height: 60px;
+ 
+   margin-top: 60px;
+  
+   border-radius: 50px;
+ ;
+   font-size: 5px;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 200px;
+   
+    
+}
+.btn3:hover{
+   box-shadow: 4px 5px 32px 19px rgba(194,194,194,0.95);
+   -webkit-box-shadow: 4px 5px 32px 19px rgba(194,194,194,0.95);
+   -moz-box-shadow: 4px 5px 32px 19px rgba(194,194,194,0.95);
+} 
+
+/* desde1100 hasta 992 mas abajo */
+@media screen and (min-width: 992px) and (max-width: 1100px){
+   .carousel-caption.carru {
+    margin-bottom: -140px !important;
+    
+   }
+   h2.titulo{
+font-size: 30px;
+   }
+   .btn.btnS{
+      width: 300px;
+   }
+
+}
+   /* desde 992 mas chico y abajo hasta 767 */
+   @media screen and (min-width: 767px) and (max-width: 992px){
+      .carousel-caption.carru {
+        
+         
+        }
+        h2.titulo{
+     font-size: 30px;
+        }
+        .btn.btn3{
+           display: none;
+        }
+        .btn.btnS{
+       width: 250px;
+       height: 100px;
+      }
+     
+   }
+   /* desde 1101 hasta 1276 */
+   @media screen and (min-width: 1101px) and (max-width: 1276px){
+      .carousel-caption.carru {
+       margin-bottom: -140px !important;
+       
+      }
+   
+   }
+
+
+   /* desde 765 hasta 400 solo un boton chico y a abajo */
+   @media screen and (min-width: 400px) and (max-width: 765px){
+      .btn.btn3{
+         display: none;
+      }
+      h2.titulo{
+         display: none;
+      }
+      .btn.btnS{
+         width: 200px;
+         height: 80px;
+        }
+        h4.titulo2{
+         font-size: 18px;
+        }
+   }
+   /* desde 550 a 400 */
+   @media screen and (min-width: 399px) and (max-width: 550px){
+      .btn.btn3{
+         display: none;
+      }
+      h2.titulo{
+         display: none;
+      }
+      .btn.btnS{
+         width: 180px;
+         height: 100px;
+        }
+        h4.titulo2{
+         font-size: 15px;
+        }
+        .btn.btn2{
+         width: 200px;
+         height: 70px;
+         
+      }
+      h4.titulo2{
+         font-size: 12px;
+      }
+   }
+   @media screen and (min-width: 300px) and (max-width: 398px){
+      .btn.btn3{
+         display: none;
+      }
+      h2.titulo{
+         display: none;
+      }
+      .btn.btnS{
+       display: none;
+        }
+        h4.titulo2{
+      display: none;
+        }
+   }
+   h2.h2Slider{
+      font-family: 'Rancho', cursive !important;
+   }

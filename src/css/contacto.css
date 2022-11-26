@@ -1,0 +1,57 @@
+.contact {
+  /* background-color: rgb(237, 237, 237); */
+
+  background-size: 100% !important;
+  width: 100% !important;
+  box-shadow: 4px 4px 48px 14px rgba(99, 185, 146, 0.91) !important;
+  -webkit-box-shadow: 4px 4px 48px 14px rgba(99, 185, 146, 0.91) !important;
+  -moz-box-shadow: 4px 4px 48px 14px rgba(99, 185, 146, 0.91) !important;
+  margin-top: 20px;
+}
+.headC {
+  background-color: rgb(99, 185, 146);
+  border-radius: 5px;
+  margin-top: -120px !important;
+  -webkit-box-shadow: 3px 3px 5px 9px rgba(194, 194, 194, 0.79);
+  -moz-box-shadow: 3px 3px 5px 9px rgba(194, 194, 194, 0.79);
+  box-shadow: 3px 3px 5px 9px rgba(194, 194, 194, 0.79);
+}
+.effect-1 {
+  border: 0;
+  outline: none;
+  width: 100%;
+  padding: 7px 0;
+  border-bottom: 1px solid rgb(56, 55, 55);
+}
+.effect-1 ~ .Focus-border {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 3px;
+  background-color: rgb(99, 185, 146);
+  transition: 0.4s;
+}
+.effect-1:focus ~ .Focus-border {
+  width: 100%;
+  transition: 0.4s;
+  left: 0;
+}
+
+.btn1 {
+  background: rgb(99, 185, 146);
+  color: aliceblue;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 145px;
+}
+.btn1:hover {
+  -webkit-box-shadow: 3px 3px 5px 9px rgba(194, 194, 194, 0.79);
+  -moz-box-shadow: 3px 3px 5px 9px rgba(194, 194, 194, 0.79);
+  box-shadow: 3px 3px 5px 9px rgba(194, 194, 194, 0.79);
+}
+
+
+

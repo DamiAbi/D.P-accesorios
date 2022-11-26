@@ -1,0 +1,28 @@
+.btn.btnPreguntas{
+    background: rgb(99, 185, 146);
+  color: aliceblue;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+  width: 200px;
+
+}
+.btn.btnPreguntas:hover {
+    -webkit-box-shadow: 3px 3px 5px 9px rgba(194, 194, 194, 0.79);
+    -moz-box-shadow: 3px 3px 5px 9px rgba(194, 194, 194, 0.79);
+    box-shadow: 3px 3px 5px 9px rgba(194, 194, 194, 0.79);
+  }
+  .imgPreguntas{
+ width: 50% !important;
+ padding: 2%;
+  }
+  .tituloEx{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.5em;
+    letter-spacing: 0px;
+    text-transform: none;
+  }
