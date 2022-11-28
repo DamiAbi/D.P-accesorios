@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap"); /*importado de google font para el tipo de letra*/
+* {
+  /*para inicializar todo*/
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  /*esto es para usar rem*/
+  font-size: 62.5%; /* tendra de referencia 10px y ya no 16px*/
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* font-size: 1rem; /*html tiene por defecto 16px y esto: 16px * 30rem = 480*/
+  height: 100vh; /*para decirle q ocupe el 100% de la pantalla*/
+}
+
+header {
+  position: sticky; /*para q se mueva el menu*/
+  top: 0; /*sube y baja*/
+  z-index: 1; /*lo trae adelante */
+}
+
+
+
+/*clase para hacer cambios en la imagen del nav*/
+.img_nav {
+  height: 8rem;
+}
+
+/* Comienza el cuerpo de la pagina */
+main {
+  display: flex; /*para q sea un contenedor flexible*/
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /*para q los elementos se acomoden uno abajo del otro*/
+  margin-bottom: 3rem;
+  margin-top: 15%;
+}
+
+.tarjeta {
+  display: flex;
+  margin: 2rem;
+  width: 30rem; /*ancho de la tarjeta*/
+  min-height: 20rem; /*minimo de alto*/
+  border-radius: 1rem; /*redondear bordes de la tarjeta*/
+  box-shadow: 2px 1px 15px -1px #000000; /*somba a la tarjeta*/
+  transition-duration: 1s; /*tiempo de la transformacion de la tarjeta*/
+}
+
+.tarjeta:hover {
+  transform: scale(
+    1.1
+  ); /*para q se agrande la imagen cuando paso el mouse dependiendo la escala 1.1*/
+}
+
+.tarjeta img {
+  width: 100%; /*ocupara el 100% del contenedor NO de la pantalla*/
+  align-self: center;
+  filter: grayscale(1); /*filtro para la escala de grises*/
+  transition-property: filter; /*transicion de los colores de la imagen*/
+  transition-duration: 0.5s; /*la transicion durara este tiempo*/
+  border-radius: 1rem;
+}
+
+.tarjeta img:hover {
+  filter: grayscale(
+    0
+  ); /*pasar el mouse por encima de la tarjeta y cambia de color*/
+}
+
+.fixed {
+  /*para q el logo de pop se mueva y este pegado a la izquierda*/
+  position: fixed;
+  bottom: 5rem;
+  right: 0;
+}
+
+.fixed img {
+  height: 8rem; /*cambia el tamaño d la imagen pop*/
+}
+
+/*---footer---*/
+.footer {
+  font-family: "Nunito", sans-serif; /*llamando el tipo de letra importado desde gooogle font*/
+  display: flex; /*contenedor flexible*/
+  justify-content: center; /*todo centrado*/
+  align-items: center; /*todo centrado*/
+
+  min-height: 8rem; /*minimo de alto*/
+  color: whitesmoke;
+}
+
+.footer p {
+  font-size: 2rem;
+}
+@media screen and (max-width: 600px) {
+    .tarjeta {
+        display: flex;
+        margin: 2rem;
+        width: 30rem; /*ancho de la tarjeta*/
+        min-height: 10rem; /*minimo de alto*/
+        border-radius: 1rem; /*redondear bordes de la tarjeta*/
+        box-shadow: 2px 1px 15px -1px #000000; /*somba a la tarjeta*/
+        transition-duration: 1s; /*tiempo de la transformacion de la tarjeta*/
+      }
+      .tarjeta img {
+        width: 100%; /*ocupara el 100% del contenedor NO de la pantalla*/
+        align-self: center;
+        border-radius: 1rem;
+        filter: grayscale(1); /*filtro para la escala de grises*/
+        transition-property: filter; /*transicion de los colores de la imagen*/
+        transition-duration: 0.5s; /*la transicion durara este tiempo*/
+      }
+      
+      
+}

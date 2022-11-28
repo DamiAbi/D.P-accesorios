@@ -1,11 +1,11 @@
 import React from "react";
-import cuca from "../assets/cuca.jpg";
+import b from "../assets/b.jpg";
 import notFound from "../css/notFound.css";
 
 const NotFound = () => {
   return (
     <div class="card text-bg-dark">
-      <img src={cuca} class="card-img" alt="404" />
+      <img src={b} class="card-img" alt="404" />
       <div class="card-img-overlay">
         <div className="text4">
           <h1 className="text5">Oops... No pudimos encontrar la página</h1>

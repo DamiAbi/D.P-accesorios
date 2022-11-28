@@ -1,8 +1,8 @@
 import React from "react";
 import experiencias from "../css/experiencias.css";
-import gini from "../assets/gini.jpg";
-import huma1 from "../assets/huma1.jpg";
-import otti from "../assets/otti.jpg";
+import bb from "../assets/bb.jpg";
+import clienta from "../assets/clienta.jpg";
+import quince from "../assets/quince.jpg";
 
 
 
@@ -14,17 +14,15 @@ const PreguntasFrecuentes = () => {
       <div className="cardE mb-3">
         <div className="row g-0">
           <div className="col-md-4">
-            <img src={gini} className="img-fluid rounded-start" alt="..." />
+            <img src={bb} className="img-fluid rounded-start" alt="..." />
           </div>
           <div className="col-md-8">
             <div className="card-body cardEx">
               <h5 className="card-title mb-3 ">
-                <strong> Gini Rohmer Litzmann</strong>
+                <strong> Gini y Robert</strong>
               </h5>
               <p className="card-text textE">
-                “Tremendas las fotos!!!! Estoy enamorada!!! Gracias! Hace años
-                quería sacarles fotos así a mis pequeños, gracias por cumplir mi
-                sueño!"
+                “Nuestros anillos soñados en nuestra boda soñada."
               </p>
               <span className="text-dark">
                 San Miguel de Tucumán - Argentina - 2020
@@ -38,18 +36,15 @@ const PreguntasFrecuentes = () => {
       <div className="cardE mb-3">
         <div className="row g-0">
           <div className="col-md-4">
-            <img src={huma1} className="img-fluid rounded-start" alt="..." />
+            <img src={clienta} className="img-fluid rounded-start" alt="..." />
           </div>
           <div className="col-md-8">
             <div className="card-body cardEx ">
               <h5 className="card-title mb-3">
-                <strong>Irene y Humahuaca</strong>
+                <strong>Irene </strong>
               </h5>
               <p className="card-text textE ">
-                “Ayyyy Laurita muero de amor con cada una de las fotos! No puedo
-                sacarme la sonrisa de la boca! Te juro que captaste a la hum que
-                es ella en acda una de las fotos! Y es para siempre! Ayy me voy
-                a abrazarla!!! Bello bello bello todo!!!
+                “Es increible cómo sin conocerme hiciste las joyas perfectas para mi."
               </p>
               <span className="text-dark">
                 San Miguel de Tucumán - Argentina - 2020
@@ -62,17 +57,15 @@ const PreguntasFrecuentes = () => {
       <div className="cardE mb-3">
         <div className="row g-0">
           <div className="col-md-4">
-            <img src={otti} className="img-fluid rounded-start" alt="..." />
+            <img src={quince} className="img-fluid rounded-start" alt="..." />
           </div>
           <div className="col-md-8">
             <div className="card-body cardEx">
               <h5 className="card-title mb-3 ">
-                <strong> Silvia y Otti</strong>
+                <strong> Silvia</strong>
               </h5>
               <p className="card-text textE ">
-                “Ay Lau recién termino de trabajar y estoy viendo las fotos,
-                unas ganas de llorar. Sus ojos en todas las fotos! lo amo tanto!
-                Gracias!!”
+                "Amé totalmente mi tiara. La mejor elección siempre.”
               </p>
               <span className="text-dark">
                 San Miguel de Tucumán - Argentina - 2022

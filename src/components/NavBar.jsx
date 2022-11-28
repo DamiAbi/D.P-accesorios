@@ -1,5 +1,5 @@
 import React from "react";
-import hokeeLogo from "../assets/hokeeLogo.png";
+
 import navBar from "../css/navBar.css";
 
 const NavBar = () => {
@@ -9,7 +9,7 @@ const NavBar = () => {
         <div className="LogoContenedor ">
 
         <a className="navbar-brand " href="#">
-          <img className="imgNav " src={hokeeLogo} alt="Bootstrap" width="220" height="150" />
+          D.P
         </a>
         </div>
         <button
@@ -28,33 +28,38 @@ const NavBar = () => {
           <div className="ItemsContenedor">
           <ul className="navbar-nav ">
             <li className="nav-item">
-              <a className="nav-link " aria-current="page" href="/home">
+              <a className="nav-link " aria-current="page" href="/">
                 Home
               </a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link " aria-current="page" href="#">
-                Galería
-              </a>
-            </li>
-            <li className="nav-item " id="Experiencias">
+          
+            <li className="nav-item " >
               <a className="nav-link" href="#Experiencias">
                 Experiencias
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#preguntas">
                 Preguntas frecuentes
               </a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/paquetes">
-                Paquetes
-              </a>
-            </li>
+            
             <li className="nav-item">
               <a className="nav-link" href="#Presentacion">
                 Sobre mí
+              </a>
+            </li>
+
+             
+            <li className="nav-item">
+              <a className="nav-link" href="#Contacto">
+                Contactos
+              </a>
+
+            </li>
+              <li className="nav-item">
+              <a className="nav-link" href="/galeria">
+                Galeria
               </a>
             </li>
           </ul>

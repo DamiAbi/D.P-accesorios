@@ -1,5 +1,5 @@
 import React from "react";
-import yo from "../assets/yo.jpg";
+import b from "../assets/b.jpg";
 import presentacion from "../css/presentacion.css";
 
 const Presentacion = () => {
@@ -9,31 +9,14 @@ const Presentacion = () => {
         <div className="card-body" >
           <h5 className="card-title">Conoceme</h5>
           <p className="card-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
-            explicabo? Repellat minima consequuntur amet, accusantium qui
-            praesentium! Alias obcaecati delectus, recusandae, perferendis culpa
-            repellat quibusdam officiis, voluptas neque quas veniam illum iure
-            nam! Ullam sequi odio recusandae eum nostrum fugiat expedita,
-            necessitatibus, quod numquam doloremque minus, maxime provident
-            veniam repellat?
+            DP es resultado de mi búsqueda personal en el diseño de piezas que expresen quién soy, los valores que apoyo y busco transmitir. Todas las piezas son diseñadas, intervenidas y realizadas a mano por mí.
+
+Siempre me sentí cerca de la naturaleza: de chica me gustaba pasar horas y horas afuera en el patio de casa, jugando con mis perros, rodeada de las plantas y flores de mi mamá, observando insectos y pájaros. De noche me gustaba acostarme en una reposera, taparme con una manta y ver las estrellas por horas mientras me perdía en el azul profundo del cielo- aún hoy hay días que me pasa. Cuando no estaba fuera, disfrutaba sentarme en el sillón a ver documentales y leer revistas sobre animales y todo aquello que tuviera que ver con la Tierra. Creo que somos parte de un todo y estamos todxs conectados,
+ por lo que debemos vivir en armonía con el entorno que nos rodea
           </p>
-          <p className="card-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
-            explicabo? Repellat minima consequuntur amet, accusantium qui
-            praesentium! Alias obcaecati delectus, recusandae, perferendis culpa
-            repellat quibusdam officiis, voluptas neque quas veniam illum iure
-            nam! Ullam sequi odio recusandae eum nostrum fugiat expedita,
-            necessitatibus, quod numquam doloremque minus, maxime provident
-            veniam repellat?
-          </p>
-          <p className="card-text">
-            <small className="text-muted">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-              dolore magni omnis ad odio quo neque error illum nulla aperiam.
-            </small>
-          </p>
+         
         </div>
-        <img src={yo} className="card-img-bottom imgcardP" alt="..." />
+        <img src={b} className="card-img-bottom imgcardP" alt="..." />
       </div>
     </>
   );

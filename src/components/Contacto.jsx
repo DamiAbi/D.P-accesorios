@@ -87,7 +87,7 @@ const Contacto = () => {
                       role
                       minlength="2"
                     />
-                    <span className="Focus-border"></span>;
+                    <span className="Focus-border"></span>
                   </div>
                 </div>
                 <div className="form-row pt-4 ">

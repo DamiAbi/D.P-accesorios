@@ -1,5 +1,5 @@
 import React from "react";
-import olaf from "../assets/olaf.jpg";
+import a from "../assets/a.jpg";
 import preguntas from "../css/preguntas.css";
 
 const Preguntas = () => {
@@ -8,51 +8,35 @@ const Preguntas = () => {
       <div className="card cardPr">
         <div className="card-body">
           <h1 className="tituloEx">¿Cómo trabajo?</h1>
-          <img src={olaf} className="card-img-bottom imgPreguntas" alt="..." />
+          <img src={a} className="card-img-bottom imgPreguntas" alt="..." />
           <p className="card-text">
             <p className="text-dark">
-              ¿Se puede elegir otra opción de entrega?
+            ¿Cuál es el costo de envío?
             </p>
             <p>
-              todo el trabajo es personalizable, consulte según su preferencia o
-              una temática especial. Cuánto dura la sesión? alrrededor de una
-              hora, todo depende de la mascota y del paquete que hayas
-              contratado.
+            El costo de envío será mostrado 
+            en base al total de la compra y código postal, en el checkout, en el momento previo a la compra.
             </p>
-            <p className="text-dark">¿Es solo para perros?</p>
+            <p className="text-dark">¿Dónde puedo recibir mi pedido?</p>
             <p>
-              no, todas las mascotas pueden ser retratadas,el único requisito es
-              que sean amigables.
+            Realizamos envíos a t
+            odo el país por mensajeria en caba, 
+            oca o correo argentino a domicilio o sucursal en el resto del pais y al exterior a traves de correo argentino a domicilio.
             </p>
-            <p className="text-dark">¿Qué tengo que llevar?</p>
-            <p>
-              todas las sesiones incluyen accesorios, moños, anteojos, collares
-              (excepto ropa), si tenes tus accesorios o ropita preferida podes
-              traer lo que mas te guste. Dónde se realiza? la sesión de fotos es
-              en estudio de fotos.(zona Av. Mitre y San Martin) (consultar por
-              fotos en exterior)
-            </p>
+           
             <p className="text-dark">
               ¿Cuánto demoras en entregarme el trabajo?
             </p>
-            <p>alrrededor de una semana.</p>
-            <p className="text-dark">¿Quién tiene que llevar a la mascota?</p>
+            <p>El tiempo de entrega dependerá del tipo de envío seleccionado. En general la demora se encuentra entre 3 y 
+              7 días hábiles luego de acreditado el pago en Argentina y hasta 30 dias habiles en paises extranjeros.</p>
+            <p className="text-dark">¿Qué hago si llega en mal estado?</p>
             <p>
-              la mascota será acompañada sólo por una persona, sin excepción, y
-              que sea aquella con la que más se sienta cómoda y tenga mas
-              confianza. No puede traerla una persona agena a la mascota.
+            Ponete en contacto con nosotras  dentro de las 72 horas recibida la compra y te enviaremos uno nuevo.
+
+El cliente podra cancelar una compra siempre y cuando la misma no haya sido despachada. Para esto deberá ponerse en contacto con MTO a traves de cualquier red social lo antes posible. La devolución del importe 
+sera mediante el medio de pago utilizado y tendrá el dinero disponible dentro de las 72 horas hábiles.
             </p>
-            <p className="text-dark">¿Se pueden personalizar las sesiones?</p>
-            <p>
-              sí, podemos armar una temática (cumpleaños, regalo sorpresa,o la
-              idea que tengas!)
-            </p>
-            <p className="text-dark">
-              Mi mascota es inquieta y no le gustan las fotos, ¿se puede?
-            </p>
-            <p>
-              Sí!, te vas a sorprender con los resultados y sus expresiones!
-            </p>
+          
             <p className="text-dark">¿Cómo puedo pagar?</p>
             <p>
               se requiere una seña del 50% para reservar día y hora, y el resto

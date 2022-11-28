@@ -4,7 +4,7 @@ import Presentacion from "../components/Presentacion";
 import Contacto from "../components/Contacto";
 import Footer from "../components/Footer";
 import Preguntas from "../components/Preguntas";
-import PaquetesLink from "../components/PaquetesLink";
+import Paquetes from "../pages/Paquetes";
 
 import Experiencias from "../components/Experiencias";
 import "../css/home.css";
@@ -20,7 +20,7 @@ const Home = () => {
       </section>
       <section id="PaquetesLink">
 
-      <PaquetesLink />
+      <Paquetes />
       <br />
       </section>
       
@@ -31,7 +31,7 @@ const Home = () => {
      
 
       
-      <section>
+      <section id="preguntas" >
         <Preguntas />
       </section>
       <section id="Contacto">

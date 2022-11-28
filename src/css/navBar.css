@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap");
+
+.itemUl{
+    margin: 0%;
+
+    
+}
+
+.nav-link{
+  
+    font-size: 15px !important;
+    font-weight: bold !important;
+    padding-left: 8px !important;
+    color: rgb(255, 255, 255) !important;
+   
+
+
+
+}
+.navbar-brand  {
+    font-size: 65px !important;
+    font-family:Tiro Tamil;
+  
+}
+.navbar{
+   
+    height: 150px !important;
+    background-color: rgba(250, 185, 217, 0.973) !important; 
+    color: rgb(158, 80, 135) !important;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 54px -3px rgba(0,0,0,0.1),0px
+     10px 15px -3px rgba(0,0,0,0.1),0px 10px 39px -3px rgba(0,0,0,0.1) !important;
+
+}
+ a .nav-link :enabled {
+
+    color: green !important;
+  }
+
+
+
+#NavButtom {
+    align-self: start;
+}
+.LogoContenedor {
+    height: 50% !important;
+}
+.LogoContenedor, .itemUl
+{
+    width: 100% !important;
+    margin:auto !important;
+	text-align:center !important;
+}
+.itemUl {
+    justify-content:center;
+     
+
+}
+
+.itemUl li {
+    float: none !important;
+	display: inline-block !important;
+   padding-right: 90px!important;
+}
+.ContenedorN {
+    display: flex;
+    flex-direction: column;
+}
+.ItemsContenedor {
+    background-color: rgba(250, 185, 217, 0.678) ;
+}
+@media screen and (max-width: 991px) {
+    .imgNav{
+        height: 110px !important;
+        width: 200px !important;
+
+    }
+}
