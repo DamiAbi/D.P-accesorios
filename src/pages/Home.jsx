@@ -45,7 +45,7 @@ const Home = () => {
      
 
       <a
-        href=" https://api.whatsapp.com/send?phone=543816510287"
+        href=" https://api.whatsapp.com/send?phone=543816461812"
         class="whatsapp"
         target="_blank"
       >

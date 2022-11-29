@@ -4,7 +4,7 @@
     height:60px;
     bottom:40px;
     right:40px;
-    background-color:#25d366;
+    background-color:#fd3592;
     color:#FFF;
     border-radius:50px;
     text-align:center;
@@ -14,8 +14,4 @@
   
   .whatsapp-icon {
     margin-top:13px;
-  }
-
-  body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
