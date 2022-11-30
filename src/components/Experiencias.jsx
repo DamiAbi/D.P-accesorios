@@ -9,7 +9,7 @@ import quince from "../assets/quince.jpg";
 const PreguntasFrecuentes = () => {
   return (
     <>
-      <h1 className="Titulop"> Experiencias (frase emotiva)</h1>
+      <h1 className="Titulop"> Experiencias </h1>
 
       <div className="cardE mb-3">
         <div className="row g-0">
