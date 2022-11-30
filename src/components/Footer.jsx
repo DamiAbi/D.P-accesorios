@@ -1,6 +1,6 @@
 import React from "react";
 import "font-awesome/css/font-awesome.css";
-import "../css/Footer.css";
+import "../css/footer.css";
 import { Col, Row } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 
@@ -12,7 +12,7 @@ const Footer= () => {
           <Col className="FooterColMail col-md-12">
             <a className="text-dark" href="">
               Copyright © 2022 All rights reserved | ®DPcompany |
-             DP22@gmail.com
+             damithapam@gmail.com
             </a>
           </Col>
 
